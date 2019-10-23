@@ -21,19 +21,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     serializer_class = GroupSerializer
 
 
-class AruleViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows groups to be viewed or edited.
-    """
-    queryset = Arule.objects.all()
-    serializer_class = AruleSerializer    
-
-class CustomeremotionViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows groups to be viewed or edited.
-    """
-    queryset = Customeremotion.objects.all()
-    serializer_class = CustomeremotionSerializer     
 
 
 
