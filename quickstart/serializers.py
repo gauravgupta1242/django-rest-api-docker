@@ -15,20 +15,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         fields = ['url', 'name']
 
 
-class AruleSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Arule
-        fields = ['rules','support','lift', 'target']     
 
-
-
-
-class CustomeremotionSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Customeremotion
-        fields = ['index','emotion','count', 'per']
-
-        
 
 
 
