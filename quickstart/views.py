@@ -2,7 +2,7 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from quickstart.serializers import UserSerializer, GroupSerializer, AruleSerializer ,  CustomeremotionSerializer
 from django.db import models
-from .models import Arule , Customeremotion
+
 
 
 class UserViewSet(viewsets.ModelViewSet):
