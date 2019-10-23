@@ -22,18 +22,9 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
-router.register(r'arule', views.AruleViewSet)
-router.register(r'customeremotion', views.CustomeremotionViewSet)
 
-'''
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    #path('api-auth/', views.rest_framework.urls , name='rest_framework')
-    #path('api-auth/', views.viewsets , name='rest_framework')
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-]
 
-'''
+
 
 urlpatterns = [
     path('', include(router.urls)),
