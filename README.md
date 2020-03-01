@@ -19,7 +19,7 @@ Steps to run the project :-
   login - "admin"
   password - "testing123".
   
-7. You can create your user by visting http://127.0.0.1:8000/admin/ and then give credential and go to user you can use CURL 
+7. You can create your user by visting http://127.0.0.1:8000/admin/ and then give credential and go to user you can use CURD 
   operation on the user's.
   
 8. To create the new superuser just go to your project directory and run the command "python manage.py createsuperuser".
