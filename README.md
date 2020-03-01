@@ -5,7 +5,7 @@ This is a simple project to create a rest api in django restframework. I had cre
 their group info.
 
 Requirements :- 
-python >= 3.6 
+python >= 3.6 , 
 pip > 18.0
 
 Steps to run the project :-
